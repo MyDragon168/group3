@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .category-section {
+            text-align: center;
+            margin: 20px;
+        }
+        .category-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .items-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item-box {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+        }
+        .item-box img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .item-title {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
+    
+
+    <div class="category-section">
+        <div class="category-title">Categories</div>
+        <div class="items-container">
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 1">
+                <div class="item-title">Food</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 2">
+                <div class="item-title">Drink</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 3">
+                <div class="item-title">Device</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 4">
+                <div class="item-title">Electrical</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 5">
+                <div class="item-title">Car</div>
+            </div>
+        </div>
+    </div>
+
     
 </body>
 </html>
