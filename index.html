@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to github</title>
+    <title>Group3</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -80,7 +80,88 @@
       li a:hover {
         background-color: #111;
       }
+
+      .category-section {
+        text-align: center;
+        margin: 20px;
+      }
+      .category-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .items-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .item-box {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+      }
+      .item-box img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      .item-title {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .footer {
+        background-color: ghostwhite;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer-container {
+        padding: 1.5rem 0 4rem;
+      }
+
+      .footer-title {
+        color: black;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      .footer-social {
+        display: flex;
+        justify-content: center;
+        column-gap: 1.25rem;
+      }
+
+      .footer-social-link {
+        background-color: black;
+        color: white;
+        font-size: 1.2rem;
+        padding: 0.4rem;
+        border-radius: 0.5rem;
+      }
+
+      .footer-social-link:hover {
+        background-color: gray;
+      }
+
+      .footer-copy {
+        display: block;
+        margin-top: 2rem;
+        color: black;
+        text-align: center;
+        font-size: 1rem;
+      }
     </style>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     
@@ -118,5 +199,53 @@
             </div>
         </div>
     </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Connect us</a></li>
+    </ul>
+    <div class="category-section">
+      <div class="category-title">Product</div>
+      <div class="items-container">
+        <div class="item-box">
+          <img src="https://via.placeholder.com/150" alt="Item 1" />
+          <div class="item-title">Item 1</div>
+        </div>
+        <div class="item-box">
+          <img src="https://via.placeholder.com/150" alt="Item 2" />
+          <div class="item-title">Item 2</div>
+        </div>
+        <div class="item-box">
+          <img src="https://via.placeholder.com/150" alt="Item 3" />
+          <div class="item-title">Item 3</div>
+        </div>
+        <div class="item-box">
+          <img src="https://via.placeholder.com/150" alt="Item 4" />
+          <div class="item-title">Item 4</div>
+        </div>
+        <div class="item-box">
+          <img src="https://via.placeholder.com/150" alt="Item 5" />
+          <div class="item-title">Item 5</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <h1 class="footer-title">Group 03</h1>
+
+        <div class="footer-social">
+          <a href="" class="footer-social-link" target="_blank">
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="" class="footer-social-link" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="" class="footer-social-link" target="_blank">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+        <span class="footer-copy"> &#169; Group03. All rigths reserved </span>
+      </div>
+    </footer>
   </body>
 </html>
