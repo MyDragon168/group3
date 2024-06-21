@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to github</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
+            /* display: flex; */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -47,11 +47,50 @@
             font-size: 18px;
             font-weight: 600;
         }
-    </style>
-</head>
-<body>
-    
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+
+        display: flex;
+
+        justify-content: space-between;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    
+    
+    
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Connect us</a></li>
+        </ul>
     <div class="category-section">
         <div class="category-title">Categories</div>
         <div class="items-container">
@@ -77,7 +116,5 @@
             </div>
         </div>
     </div>
-
-    
-</body>
+  </body>
 </html>
