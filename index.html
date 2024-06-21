@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to github</title>
     <style>
       * {
         margin: 0;
@@ -38,13 +35,74 @@
       li a:hover {
         background-color: #111;
       }
+   
+        .category-section {
+            text-align: center;
+            margin: 20px;
+        }
+        .category-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .items-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item-box {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+        }
+        .item-box img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .item-title {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
     </style>
-  </head>
-  <body>
+    
+  
+</head>
+<body>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="">About Us</a></li>
-      <li><a href="">Connect us</a></li>
-    </ul>
-  </body>
+        <li><a href="#">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Connect us</a></li>
+      </ul>
+    <div class="category-section">
+        <div class="category-title">Product</div>
+        <div class="items-container">
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 1">
+                <div class="item-title">Item 1</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 2">
+                <div class="item-title">Item 2</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 3">
+                <div class="item-title">Item 3</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 4">
+                <div class="item-title">Item 4</div>
+            </div>
+            <div class="item-box">
+                <img src="https://via.placeholder.com/150" alt="Item 5">
+                <div class="item-title">Item 5</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
